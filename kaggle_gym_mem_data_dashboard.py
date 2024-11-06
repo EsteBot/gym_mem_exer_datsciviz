@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(layout="wide")
 
-data = pd.read_csv("X:\Streamlit\gym_members_exercise_tracking.csv")
+data = pd.read_csv(gym_members_exercise_tracking.csv)
 
 # CSS to center the elements
 st.markdown(
